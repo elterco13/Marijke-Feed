@@ -315,8 +315,41 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
+def check_password():
+    """Returns True if the user had the correct password."""
+    def password_entered():
+        """Checks whether a password entered by the user is correct."""
+        if st.session_state["password"] == st.secrets.get("APP_PASSWORD", "admin123"):
+            st.session_state["password_correct"] = True
+            del st.session_state["password"]  # don't store password
+        else:
+            st.session_state["password_correct"] = False
+
+    if st.session_state.get("password_correct", False):
+        return True
+
+    # Show login screen
+    st.markdown("""
+        <div style="text-align:center; padding: 50px 0;">
+            <div style="font-size: 5rem;">🐠</div>
+            <h1 style="color: #22d3ee;">Aquarium Science Monitor</h1>
+            <p style="color: #94a3b8;">Internal science intelligence tool</p>
+        </div>
+    """, unsafe_allow_html=True)
+    
+    col1, col2, col3 = st.columns([1, 2, 1])
+    with col2:
+        st.text_input("Please enter the access password", type="password", on_change=password_entered, key="password")
+        if "password_correct" in st.session_state:
+            st.error("😕 Password incorrect")
+    return False
+
+
 def main():
     """Main application router."""
+    if not check_password():
+        st.stop()  # Do not continue if password is not correct
+        
     page = render_sidebar()
 
     if page == "Run Search":
