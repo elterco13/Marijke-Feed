@@ -1,0 +1,38 @@
+[
+  {
+    "id": "tax_marine_fish",
+    "name": "Marine Fishes",
+    "description": "Marine aquarium fishes (Clownfish, Tangs, Angelfish, Gobies, etc.)",
+    "keywords": ["Amphiprion", "Acanthurus", "Zebrasoma", "Pomacanthidae", "Centropyge", "Gobiidae", "Pterapogon", "marine fish", "reef fish"]
+  },
+  {
+    "id": "tax_fw_fish",
+    "name": "Freshwater Fishes",
+    "description": "Freshwater aquarium fishes (Cichlids, Tetras, Bettas, Catfish, etc.)",
+    "keywords": ["Betta", "Cichlidae", "Pterophyllum", "Symphysodon", "Corydoras", "Plecostomus", "Loricariidae", "Cyprinidae", "Poeciliidae", "freshwater fish"]
+  },
+  {
+    "id": "tax_shrimp",
+    "name": "Shrimp & Crustaceans",
+    "description": "Ornamental shrimp, crabs, and hermits (Neocaridina, Caridina, Cleaner Shrimp).",
+    "keywords": ["Neocaridina", "Caridina", "Lysmata", "Stenopus", "Paguridae", "ornamental shrimp", "freshwater shrimp"]
+  },
+  {
+    "id": "tax_coral",
+    "name": "Corals & Cnidarians",
+    "description": "Stony corals (SPS/LPS), soft corals, and anemones.",
+    "keywords": ["Acropora", "Montipora", "Euphyllia", "Goniopora", "Zoanthidae", "Actiniidae", "stony coral", "soft coral", "zoanthid", "anemone"]
+  },
+  {
+    "id": "tax_macroalgae",
+    "name": "Macroalgae & Plants",
+    "description": "Aquarium macroalgae and aquatic plants.",
+    "keywords": ["Caulerpa", "Chaetomorpha", "Ulva", "macroalgae", "aquatic plant"]
+  },
+  {
+    "id": "tax_molluscs",
+    "name": "Molluscs & Echinoderms",
+    "description": "Giant clams, snails, starfish, urchins.",
+    "keywords": ["Tridacna", "giant clam", "nudibranch", "echinoderm", "sea urchin"]
+  }
+]

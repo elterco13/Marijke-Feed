@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# Environment
+.env
+
+# Database
+data/*.db
+data/app.db
+
+# App Data
+exports/
+
+# IDE
+.vscode/
+.idea/
+.antigravity/
+
+# Streamlit
+.streamlit/secrets.toml

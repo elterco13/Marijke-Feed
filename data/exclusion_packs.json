@@ -1,0 +1,32 @@
+[
+  {
+    "id": "exc_aquaculture",
+    "name": "Food Aquaculture",
+    "description": "Exclude research on commercial food aquaculture (salmon, tilapia, edible shrimp).",
+    "keywords": ["salmon farming", "salmon aquaculture", "shrimp farming", "edible shrimp", "food fish", "aquaculture production", "tilapia farming", "commercial aquaculture"]
+  },
+  {
+    "id": "exc_fisheries",
+    "name": "Commercial Fisheries",
+    "description": "Exclude research on commercial fishing, trawling, and fishery stock management.",
+    "keywords": ["fisheries management", "commercial fisheries", "overfishing", "fish stock", "trawling"]
+  },
+  {
+    "id": "exc_mammals",
+    "name": "Marine Mammals",
+    "description": "Exclude whales, dolphins, seals, and other marine mammals.",
+    "keywords": ["whale", "dolphin", "porpoise", "marine mammal", "cetacean", "pinniped", "sea lion", "walrus", "orca"]
+  },
+  {
+    "id": "exc_macro_policy",
+    "name": "Macro-Policy & Climate",
+    "description": "Exclude broad climate policy, ocean acidification modeling, and macro-level greenhouse gas research.",
+    "keywords": ["ocean policy", "climate policy", "greenhouse gas", "sea level rise"]
+  },
+  {
+    "id": "exc_livestock",
+    "name": "Terrestrial Livestock",
+    "description": "Exclude cattle, pigs, poultry, and general veterinary science unrelated to fish.",
+    "keywords": ["cattle", "livestock", "pig", "poultry", "veterinary"]
+  }
+]

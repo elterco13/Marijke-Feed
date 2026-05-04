@@ -1,0 +1,107 @@
+[
+  {
+    "category": "Taxonomy & Systematics",
+    "subcategory": "New Species",
+    "keywords": ["new species", "sp. nov.", "sp nov", "gen. nov.", "comb. nov.", "new species description"]
+  },
+  {
+    "category": "Taxonomy & Systematics",
+    "subcategory": "Revision & Redescription",
+    "keywords": ["redescription", "revision", "synonymy", "reclassification", "taxonomic review"]
+  },
+  {
+    "category": "Taxonomy & Systematics",
+    "subcategory": "Phylogenetics",
+    "keywords": ["phylogeny", "phylogenomics", "molecular phylogeny", "phylogenetic", "molecular systematics", "cladistics"]
+  },
+  {
+    "category": "Disease & Pathogens",
+    "subcategory": "Bacterial Disease",
+    "keywords": ["bacterial infection", "mycobacteriosis", "flavobacterium", "aeromonas", "streptococcus", "vibrio", "columnaris", "bacterial disease"]
+  },
+  {
+    "category": "Disease & Pathogens",
+    "subcategory": "Parasites",
+    "keywords": ["parasite", "ectoparasite", "endoparasite", "monogenean", "copepod parasite", "gyrodactylus", "dactylogyrus", "isopod"]
+  },
+  {
+    "category": "Disease & Pathogens",
+    "subcategory": "Protists & Fungi",
+    "keywords": ["ich", "ichthyophthirius", "cryptocaryon", "amyloodinium", "velvet", "white spot", "saprolegnia", "oomycete", "dinoflagellate"]
+  },
+  {
+    "category": "Disease & Pathogens",
+    "subcategory": "Viral Disease",
+    "keywords": ["viral disease", "herpesvirus", "ranavirus", "iridovirus", "nodavirus", "koi herpesvirus", "CyHV"]
+  },
+  {
+    "category": "Microbiology & AMR",
+    "subcategory": "Antimicrobial Resistance",
+    "keywords": ["antimicrobial resistance", "antibiotic resistance", "AMR", "multidrug resistant", "resistant bacteria", "extended spectrum"]
+  },
+  {
+    "category": "Microbiology & AMR",
+    "subcategory": "Microbiome",
+    "keywords": ["microbiome", "microbiota", "gut microbiome", "fish microbiome", "16S rRNA", "metagenomics", "metagenome"]
+  },
+  {
+    "category": "Coral & Cnidaria",
+    "subcategory": "Coral Biology",
+    "keywords": ["coral", "acropora", "montipora", "pocillopora", "stony coral", "LPS coral", "SPS coral", "zooxanthellae", "symbiodinium", "symbiodiniaceae"]
+  },
+  {
+    "category": "Coral & Cnidaria",
+    "subcategory": "Anemones & Soft Corals",
+    "keywords": ["anemone", "cnidarian", "soft coral", "zoanthid", "palythoa", "zoanthus", "ricordea", "xenia", "leather coral"]
+  },
+  {
+    "category": "Coral & Cnidaria",
+    "subcategory": "Coral Health",
+    "keywords": ["coral bleaching", "coral disease", "white syndrome", "black band disease", "stony coral tissue loss"]
+  },
+  {
+    "category": "Invertebrates",
+    "subcategory": "Shrimp & Crustaceans",
+    "keywords": ["ornamental shrimp", "freshwater shrimp", "neocaridina", "caridina", "lysmata", "stenopus", "crustacean"]
+  },
+  {
+    "category": "Invertebrates",
+    "subcategory": "Molluscs & Echinoderms",
+    "keywords": ["tridacna", "clam", "cephalopod", "echinoderm", "sea urchin", "starfish", "sea cucumber", "nudibranch"]
+  },
+  {
+    "category": "Macroalgae",
+    "subcategory": "",
+    "keywords": ["macroalgae", "caulerpa", "chaetomorpha", "ulva", "halimeda", "gracilaria", "seaweed", "green algae", "red algae", "brown algae"]
+  },
+  {
+    "category": "Trade & Industry",
+    "subcategory": "Ornamental Trade",
+    "keywords": ["ornamental trade", "aquarium trade", "live fish trade", "pet trade", "CITES", "import export", "ornamental fisheries"]
+  },
+  {
+    "category": "Trade & Industry",
+    "subcategory": "Captive Breeding",
+    "keywords": ["captive bred", "tank bred", "captive breeding", "aquaculture", "broodstock", "hatchery", "aquaculture ornamental"]
+  },
+  {
+    "category": "Invasive Species",
+    "subcategory": "",
+    "keywords": ["invasive species", "aquarium release", "introduced species", "exotic species", "lionfish", "pacu", "snakehead", "plecostomus invasive"]
+  },
+  {
+    "category": "Husbandry-Relevant Biology",
+    "subcategory": "Physiology",
+    "keywords": ["osmoregulation", "nitrogen cycle", "water quality", "ammonia toxicity", "stress physiology", "immune response", "cortisol"]
+  },
+  {
+    "category": "Husbandry-Relevant Biology",
+    "subcategory": "Behavior",
+    "keywords": ["spawning", "breeding behavior", "courtship", "aggression", "social behavior", "color change", "feeding behavior"]
+  },
+  {
+    "category": "News & Programs",
+    "subcategory": "",
+    "keywords": ["research program", "conservation program", "news", "announcement", "award", "funding", "grant"]
+  }
+]

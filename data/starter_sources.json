@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ZooKeys",
+    "url": "https://zookeys.pensoft.net/rss.xml",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Biodiversity & taxonomy journal - Pensoft"
+  },
+  {
+    "name": "Frontiers in Marine Science",
+    "url": "https://www.frontiersin.org/journals/marine-science/rss",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Broad marine science coverage"
+  },
+  {
+    "name": "Ichthyology & Herpetology (AFS)",
+    "url": "https://meridian.allenpress.com/rss/site_5/journals/ich/recent",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Formerly Copeia - fish systematics and biology"
+  },
+  {
+    "name": "PeerJ - Life & Environment",
+    "url": "https://peerj.com/articles/index.rss?disciplineIds=23",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Open access biology, aquatic biology included"
+  },
+  {
+    "name": "Journal of Fish Biology (Wiley)",
+    "url": "https://onlinelibrary.wiley.com/feed/10958649/most-recent",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Fish biology and ecology"
+  },
+  {
+    "name": "Aquaculture (Elsevier)",
+    "url": "https://rss.sciencedirect.com/publication/science/00448486",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": false,
+    "notes": "Includes some ornamental/aquarium-relevant content among aquaculture"
+  },
+  {
+    "name": "Diseases of Aquatic Organisms",
+    "url": "https://www.int-res.com/journals/dao/dao-home/rss/",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Fish and invertebrate diseases, pathogens"
+  },
+  {
+    "name": "Coral Reefs (Springer)",
+    "url": "https://link.springer.com/search.rss?query=coral&search-within=Journal&facet-journal-id=338",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Coral reef biology and ecology"
+  },
+  {
+    "name": "Systematic Biology (Oxford)",
+    "url": "https://academic.oup.com/rss/site_5180/advanceAccess_6377.xml",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": false,
+    "notes": "Taxonomy and phylogenetics - broad"
+  },
+  {
+    "name": "Taxonomy (MDPI)",
+    "url": "https://www.mdpi.com/rss/journal/taxonomy",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Open access taxonomy journal"
+  },
+  {
+    "name": "PhytoKeys (Pensoft)",
+    "url": "https://phytokeys.pensoft.net/rss.xml",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": false,
+    "notes": "Plant/algae systematics - relevant for macroalgae"
+  },
+  {
+    "name": "ScienceDaily - Fish & Aquatic Life",
+    "url": "https://www.sciencedaily.com/rss/plants_animals/fish.xml",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Science news aggregator - fish topics"
+  },
+  {
+    "name": "ScienceDaily - Marine Biology",
+    "url": "https://www.sciencedaily.com/rss/plants_animals/marine_biology.xml",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": true,
+    "notes": "Science news - marine biology"
+  },
+  {
+    "name": "bioRxiv - Animal Behavior and Cognition",
+    "url": "https://connect.biorxiv.org/biorxiv_xml.php?subject=animal_behavior_and_cognition",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": false,
+    "notes": "Preprint server - relevant fish behavior occasionally"
+  },
+  {
+    "name": "Nature - Biodiversity",
+    "url": "https://www.nature.com/subjects/biodiversity.rss",
+    "source_type": "rss",
+    "source_family": "rss",
+    "is_enabled": false,
+    "notes": "High-impact biodiversity news from Nature"
+  }
+]

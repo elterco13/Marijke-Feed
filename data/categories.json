@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cat_taxonomy",
+    "name": "Taxonomy & Systematics",
+    "description": "Research on species classification, new species descriptions, phylogenetics, and taxonomy.",
+    "keywords": ["taxonomy", "systematics", "phylogeny", "new species", "sp. nov.", "gen. nov.", "redescription", "revision"]
+  },
+  {
+    "id": "cat_disease",
+    "name": "Disease & Pathogens",
+    "description": "Studies on aquatic diseases, parasites, bacteria, viruses, and immunology.",
+    "keywords": ["disease", "pathogen", "parasite", "infection", "immunology", "bacterial", "viral", "mycobacteriosis", "ichthyophthirius", "cryptocaryon", "amyloodinium", "saprolegnia"]
+  },
+  {
+    "id": "cat_husbandry",
+    "name": "Husbandry & Biology",
+    "description": "Aquarium-relevant biology including nutrition, water quality, behavior, reproduction, and physiology.",
+    "keywords": ["husbandry", "captive", "nutrition", "water quality", "behavior", "spawning", "breeding", "osmoregulation", "nitrogen cycle", "stress physiology"]
+  },
+  {
+    "id": "cat_microbiology",
+    "name": "Microbiology & AMR",
+    "description": "Research on microbiomes, antimicrobial resistance, and microbial communities in aquatic environments.",
+    "keywords": ["microbiome", "microbiota", "antimicrobial resistance", "AMR", "16S rRNA", "metagenomics", "antibiotic resistance"]
+  },
+  {
+    "id": "cat_trade",
+    "name": "Trade & Conservation",
+    "description": "Research related to the ornamental pet trade, invasive species from the trade, and captive breeding for conservation.",
+    "keywords": ["ornamental trade", "pet trade", "aquarium trade", "live fish trade", "invasive species", "aquarium release", "CITES", "captive bred"]
+  }
+]

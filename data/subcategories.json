@@ -1,0 +1,65 @@
+[
+  {
+    "id": "sub_new_species",
+    "category_id": "cat_taxonomy",
+    "name": "New Species Descriptions",
+    "description": "Newly discovered and described species relevant to aquariums.",
+    "keywords": ["new species", "sp. nov.", "sp nov", "gen. nov."]
+  },
+  {
+    "id": "sub_phylogenetics",
+    "category_id": "cat_taxonomy",
+    "name": "Phylogenetics",
+    "description": "Evolutionary relationships and genetic taxonomy.",
+    "keywords": ["phylogeny", "phylogenomics", "molecular systematics", "cladistics"]
+  },
+  {
+    "id": "sub_bacterial",
+    "category_id": "cat_disease",
+    "name": "Bacterial Diseases",
+    "description": "Pathogenic bacteria such as Mycobacteria, Vibrio, Aeromonas.",
+    "keywords": ["bacterial infection", "mycobacteriosis", "flavobacterium", "aeromonas", "streptococcus", "vibrio", "columnaris"]
+  },
+  {
+    "id": "sub_parasitic",
+    "category_id": "cat_disease",
+    "name": "Parasites & Protists",
+    "description": "Ecto and endoparasites, including Ich, Velvet, flukes, and copepods.",
+    "keywords": ["parasite", "ectoparasite", "monogenean", "ich", "ichthyophthirius", "cryptocaryon", "amyloodinium", "velvet", "white spot", "copepod parasite"]
+  },
+  {
+    "id": "sub_viral",
+    "category_id": "cat_disease",
+    "name": "Viral Diseases",
+    "description": "Viruses affecting aquatic life (e.g., iridovirus, megalocytivirus).",
+    "keywords": ["viral disease", "herpesvirus", "ranavirus", "iridovirus", "nodavirus", "koi herpesvirus", "megalocytivirus"]
+  },
+  {
+    "id": "sub_water_quality",
+    "category_id": "cat_husbandry",
+    "name": "Water Quality & Chemistry",
+    "description": "Nitrogen cycle, pH, osmoregulation, and toxicity.",
+    "keywords": ["osmoregulation", "nitrogen cycle", "water quality", "ammonia toxicity", "nitrite", "nitrate"]
+  },
+  {
+    "id": "sub_reproduction",
+    "category_id": "cat_husbandry",
+    "name": "Reproduction & Breeding",
+    "description": "Captive breeding, spawning behavior, and larval rearing.",
+    "keywords": ["spawning", "breeding behavior", "courtship", "larval rearing", "broodstock"]
+  },
+  {
+    "id": "sub_amr",
+    "category_id": "cat_microbiology",
+    "name": "Antimicrobial Resistance",
+    "description": "AMR prevalence in ornamental fish and aquatic environments.",
+    "keywords": ["antimicrobial resistance", "antibiotic resistance", "AMR", "multidrug resistant", "resistant bacteria"]
+  },
+  {
+    "id": "sub_invasive",
+    "category_id": "cat_trade",
+    "name": "Invasive Species",
+    "description": "Aquarium species introduced into non-native environments (e.g., Lionfish, Plecos).",
+    "keywords": ["invasive species", "aquarium release", "introduced species", "lionfish", "snakehead", "plecostomus invasive"]
+  }
+]
