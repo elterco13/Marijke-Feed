@@ -96,6 +96,16 @@ class Profile(Base):
             return json.loads(self.exclude_keywords_json)
         return []
 
+    def get_manual_taxa(self) -> list[str]:
+        if self.taxon_allowlist_json:
+            return json.loads(self.taxon_allowlist_json)
+        return []
+
+    def get_manual_categories(self) -> list[str]:
+        if self.include_keywords_json:
+            return json.loads(self.include_keywords_json)
+        return []
+
 
 class Connector(Base):
     __tablename__ = "connectors"

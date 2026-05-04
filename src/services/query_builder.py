@@ -64,6 +64,9 @@ def build_query(profile: Profile) -> str:
     for pack in _TAXON_PACKS:
         if pack["id"] in selected_taxa_ids:
             taxa_keywords.extend(pack.get("keywords", []))
+    
+    # Add manual taxa overrides
+    taxa_keywords.extend(profile.get_manual_taxa())
             
     # 2. Collect Category/Subcategory Keywords (Topic)
     topic_keywords = []
@@ -76,6 +79,9 @@ def build_query(profile: Profile) -> str:
     for subcat in _SUBCATEGORIES:
         if subcat["id"] in selected_subcat_ids:
             topic_keywords.extend(subcat.get("keywords", []))
+            
+    # Add manual topic/category overrides
+    topic_keywords.extend(profile.get_manual_categories())
 
     # 3. Collect Exclusion Keywords
     exclusion_keywords = []
@@ -83,6 +89,9 @@ def build_query(profile: Profile) -> str:
     for exc in _EXCLUSION_PACKS:
         if exc["id"] in selected_exc_ids:
             exclusion_keywords.extend(exc.get("keywords", []))
+            
+    # Add manual exclusion overrides
+    exclusion_keywords.extend(profile.get_exclude_keywords())
 
     # Build parts
     parts = []

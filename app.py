@@ -3,8 +3,13 @@ Aquarium Science Monitor — Main Streamlit App Entry Point
 """
 
 import streamlit as st
+import os
 from pathlib import Path
 import sys
+from dotenv import load_dotenv
+
+# Load .env file
+load_dotenv()
 
 # Ensure src is on the path
 sys.path.insert(0, str(Path(__file__).parent))
@@ -319,7 +324,11 @@ def check_password():
     """Returns True if the user had the correct password."""
     def password_entered():
         """Checks whether a password entered by the user is correct."""
-        if st.session_state["password"] == st.secrets.get("APP_PASSWORD", "admin123"):
+        # Check environment variables first (works for .env local and Streamlit Secrets)
+        # Fallback to 'admin123' if not set anywhere
+        correct_password = os.getenv("APP_PASSWORD") or "admin123"
+        
+        if st.session_state["password"] == correct_password:
             st.session_state["password_correct"] = True
             del st.session_state["password"]  # don't store password
         else:
